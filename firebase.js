@@ -5,7 +5,7 @@ import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore";
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAdu5Op0TnEV5EQscWQEIW8PA1Jip4Hyx8",
+  apiKey: GOOGLE_API_KEY,
   authDomain: "headstarter-pantry-56de1.firebaseapp.com",
   projectId: "headstarter-pantry-56de1",
   storageBucket: "headstarter-pantry-56de1.appspot.com",
